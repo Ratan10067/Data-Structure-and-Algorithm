@@ -1,0 +1,22 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main(){
+vector<int> v;
+cout<<"size "<<v.capacity()<<endl;
+v.push_back(1);
+cout<<v.capacity()<<endl;
+v.push_back(2);
+v.push_back(3);
+cout << v.capacity() << endl;
+v.pop_back();
+for (int i = 0; i < v.size(); i++)
+{
+    cout<<v[i]<<" ";
+}
+cout<<endl;
+cout<<v.front()<<endl;
+
+return 0;
+}
