@@ -34,7 +34,6 @@ public:
             return cache[key].first;
         }
     }
-
     void put(int key, int value)
     {
         if (cache.find(key) == cache.end())
