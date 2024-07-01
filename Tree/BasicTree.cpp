@@ -37,6 +37,5 @@ signed main()
         g[a].push_back(b);
         g[b].push_back(a);
     }
-
     return 0;
 }
