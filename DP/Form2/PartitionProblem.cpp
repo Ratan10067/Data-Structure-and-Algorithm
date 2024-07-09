@@ -1,8 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-using lli = long long int;
-#define mod 1000000007
 #define IOS ios_base::sync_with_stdio(false)
 #define pi 3.14
 #define F first
@@ -32,7 +29,7 @@ int rec(int i, int x)
     int min_seen = arr[i];
     for (int j = i - 1; j >= -1; j--)
     {
-        ans = min(ans, rec(j, x - 1)) + min_seen;
+        ans = min(ans, rec(j, x - 1) + min_seen);
         min_seen = min(min_seen, arr[j]);
     }
     return dp[i][x] = ans;

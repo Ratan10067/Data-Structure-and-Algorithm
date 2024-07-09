@@ -16,6 +16,6 @@ int main()
     {
         cout << nums[i] << " ";
     }
-cout<<"\n";
+    cout << "\n";
     return 0;
 }
