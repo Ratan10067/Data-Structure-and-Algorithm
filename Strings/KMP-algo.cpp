@@ -3,7 +3,19 @@
 #include <string>
 
 using namespace std;
-
+// void buildKMP(string str, vector<int> &kmp)
+// {
+//     int i = 0;
+//     int j = -1;
+//     while (i < str.size())
+//     {
+//         while (j != -1 and str[i] != str[j])
+//             j = kmp[j];
+//         i++;
+//         j++;
+//         kmp[i] = j;
+//     }
+// }
 vector<int> computePrefixFunction(string pattern)
 {
     int m = pattern.length();

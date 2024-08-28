@@ -15,7 +15,6 @@ void solve(int *arr, int cnt)
     //         }
     //         sum+=curr;
     //     }
-
     // }
     for (int i = 0; i < 4; i++)
     {

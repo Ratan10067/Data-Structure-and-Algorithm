@@ -58,6 +58,5 @@ signed main()
     {
         cout<<ans[i]<<" ";
     }
-    
     return 0;
 }

@@ -5,7 +5,6 @@ int indp[100100];
 int outdp[100100];
 vector<int> g[100100];
 int n;
-int ans[100100];
 void dfsin(int node, int par)
 {
     indp[node] = 0;

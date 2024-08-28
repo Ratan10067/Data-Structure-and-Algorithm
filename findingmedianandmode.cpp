@@ -25,7 +25,7 @@ struct data_dashboard
         if(low.size()>high.size()+1)
         {
             int x = *low.rbegin();
-            high.erase(low.find(x));
+            low.erase(low.find(x));
             high.insert(x);
         } 
     }
