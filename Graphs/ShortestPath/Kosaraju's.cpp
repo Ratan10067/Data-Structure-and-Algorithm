@@ -138,6 +138,7 @@ signed main()
     }
     reverse(tout_order.begin(), tout_order.end());
     vis.assign(n + 1, 0);
+    
     for (auto x : tout_order)
     {
         if (!vis[x])
