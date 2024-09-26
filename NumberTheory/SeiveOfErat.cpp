@@ -8,7 +8,7 @@ using lli = long long int;
 #define F first
 #define S second
 #define MP make_pair
-// >>>>> time complexity is O(log(log(n))) <<<<<<
+// >>>>> time complexity is O(nlog(log(n))) <<<<<<
 signed main()
 {
     IOS;
