@@ -66,7 +66,6 @@ public:
 class Solution
 {
 public:
-    // Function to find sum of weights of edges of the Minimum Spanning Tree.
     int spanningTree(int V, vector<vector<int>> adj[])
     {
         vector<pair<int, pair<int, int>>> edges;

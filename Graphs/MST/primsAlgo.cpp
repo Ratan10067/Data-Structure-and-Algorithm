@@ -25,6 +25,7 @@ public:
                 int edW = v[1];
                 if (!vis[temp])
                 {
+                    
                     pq.push({-edW, temp});
                 }
             }
@@ -34,6 +35,6 @@ public:
 };
 signed main()
 {
-    // Driver code sttandard input output for graph problems///
+    
     return 0;
 }
