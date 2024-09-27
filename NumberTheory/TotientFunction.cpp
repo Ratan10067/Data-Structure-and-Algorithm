@@ -6,7 +6,7 @@ Some Properties of Totient Function :
 
 1. ϕ(p) = p-1 (Where is p is any Prime Number)
 2. ϕ(p^k) = p^k - p^(k-1)
-3. ϕ(a,b) = ϕ(a).ϕ(b)    (When gcd(a,b)==1)
+3. ϕ(a.b) = ϕ(a).ϕ(b)    (When gcd(a,b)==1)
 */
 
 #include <bits/stdc++.h>
