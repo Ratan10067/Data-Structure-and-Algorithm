@@ -2,7 +2,7 @@
 using namespace std;
 class DisjointSet
 {
-public:
+    public:
     vector<int> rank, parent, size;
     DisjointSet(int n)
     {
