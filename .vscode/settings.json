@@ -24,7 +24,8 @@
         "unordered_map": "cpp",
         "unordered_set": "cpp",
         "valarray": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "__locale": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }

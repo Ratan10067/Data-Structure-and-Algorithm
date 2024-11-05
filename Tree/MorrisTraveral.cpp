@@ -40,7 +40,7 @@ void morrisTraversal(Node *root)
         }
         else
         {
-            cout<<curr->data<<endl;
+            cout << curr->data << endl;
             curr = curr->right;
         }
     }
