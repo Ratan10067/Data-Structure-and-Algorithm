@@ -1,1 +1,1 @@
-Important Question And Algorithm for SDE Interview Preparation.
+Important Question and Algorithm for SDE Interview Preparation.
