@@ -14,6 +14,7 @@ Out of the three operations the one that stands out is that of insertion. In DSA
 This data structure is trivial, but linked lists have a few key points which at times make them very attractive:
 1. the list is dynamically resized, thus it incurs no copy penalty like an array or vector would eventually incur; and
 2. insertion is O(1).
+   
 **Types of Linked List : **
 **Singly Linked List**
 Singly linked lists are one of the most primitive data structures you will find in this book. Each node that makes up a singly linked list consists of a value, and a reference to the next node (if any) in the list.
