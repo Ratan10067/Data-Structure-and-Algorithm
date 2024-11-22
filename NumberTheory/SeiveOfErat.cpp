@@ -31,7 +31,7 @@ signed main()
     {
         if (v[i])
         {
-            cout << "Prime Number" << endl;
+            cout << "Prime Number : " << i<<  endl;
         }
     }
     return 0;
