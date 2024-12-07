@@ -1,3 +1,9 @@
+/*
+    The Z Algorithm is a linear-time string-matching algorithm used to find all occurrences of a pattern within a string. It computes the Z-array, where each element represents the length of the substring starting at that position that matches the prefix of the string. This makes the algorithm efficient for problems like substring search, pattern matching, and prefix computation.
+
+*/
+
+
 #include "bits/stdc++.h"
 using namespace std;
 

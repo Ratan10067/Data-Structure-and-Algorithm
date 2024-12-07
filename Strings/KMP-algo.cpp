@@ -3,10 +3,17 @@
 #include <string>
 
 using namespace std;
+
+/*
+Important Notes Regarding KMP array 
+    -> kmp[i+1] <= kmp[i] + 1 (Most Important Property of KMP Algorithm)
+*/
+
 // void buildKMP(string str, vector<int> &kmp)
 // {
 //     int i = 0;
 //     int j = -1;
+        // kmp[0] = -1;
 //     while (i < str.size())
 //     {
 //         while (j != -1 and str[i] != str[j])
@@ -16,6 +23,7 @@ using namespace std;
 //         kmp[i] = j;
 //     }
 // }
+
 vector<int> computePrefixFunction(string pattern)
 {
     int m = pattern.length();
