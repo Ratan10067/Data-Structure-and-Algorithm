@@ -25,7 +25,8 @@
         "unordered_set": "cpp",
         "valarray": "cpp",
         "bitset": "cpp",
-        "__locale": "cpp"
+        "__locale": "cpp",
+        "complex": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
