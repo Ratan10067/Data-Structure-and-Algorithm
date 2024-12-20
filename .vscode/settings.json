@@ -26,7 +26,15 @@
         "valarray": "cpp",
         "bitset": "cpp",
         "__locale": "cpp",
-        "complex": "cpp"
+        "complex": "cpp",
+        "__node_handle": "cpp",
+        "limits": "cpp",
+        "locale": "cpp",
+        "optional": "cpp",
+        "ratio": "cpp",
+        "scoped_allocator": "cpp",
+        "tuple": "cpp",
+        "__memory": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
