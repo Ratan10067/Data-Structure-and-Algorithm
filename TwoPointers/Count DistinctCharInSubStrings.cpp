@@ -1,0 +1,53 @@
+/*
+Problem Statement :
+Description
+Given a string S consisting of the lowercase character of length N. Score of a string is the number of distinct characters present in the string. Like the score of "character" is 6.
+
+Find the sum of the score of all substring of S.
+
+Input Format
+The first line contains T, the number of test cases (1<=T<=10).
+
+The first line of each test case contains an integers N, size of the string, 1<=N<=10^5.
+
+The second line of each test case contains a string S of length N.
+
+Output Format
+For each test case print the sum of the score of all substring of S in a newline.
+*/
+
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+signed main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+    ;
+    ll testcases;
+    cin >> testcases;
+    while (testcases--)
+    {
+        ll n;
+        cin >> n;
+        string s;
+        cin >> s;
+        ll prev[26];
+        for (ll i = 0; i < 26; i++)
+            prev[i] = -1;
+        long long ans = 26 * ((n * (n + 1)) / 2);
+        for (ll i = 0; i < n; i++)
+        {
+            ll lenNotWithChar = i - prev[s[i] - 'a'] - 1;
+            ans = ans - ((lenNotWithChar * (lenNotWithChar + 1)) / 2);
+            prev[s[i] - 'a'] = i;
+        }
+        for (ll i = 0; i < 26; i++)
+        {
+            ll lenNotWithChar = n - prev[i] - 1;
+            ans = ans - ((lenNotWithChar * (lenNotWithChar + 1)) / 2);
+        }
+        cout << ans << "\n";
+    }
+}
